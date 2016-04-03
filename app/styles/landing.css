@@ -35,13 +35,7 @@ body.landing {
     position: relative;
     padding: 2rem;
     text-align: center;
-    opacity: 0;
-    -webkit-transition: all 1.5s ease-in-out;
-    -moz-transition: all 1.5s ease-in-out;
-    transition: all 1.5s ease-in-out;
-    -webkit-transition-delay: 0.25s;
-    -moz-transition-delay: 0.25s;
-    transition-delay: 0.25s;
+    opacity: 1;
 }
 
 #first-point {
