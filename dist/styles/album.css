@@ -41,6 +41,7 @@
 .song-item-number {
     width: 5%;
     min-width: 30px;
+    text-align: center;
 }
 
 .song-item-title {
