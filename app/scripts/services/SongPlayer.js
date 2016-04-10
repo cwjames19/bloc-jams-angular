@@ -24,6 +24,7 @@
             if (currentBuzzObject) {
                 currentBuzzObject.stop();
                 SongPlayer.currentSong.playing = null;
+                SongPlayer.currentSong.paused = null;
             }
 
             currentBuzzObject = new buzz.sound(song.audioUrl, {
@@ -42,6 +43,7 @@
         var playSong = function(song) {
             currentBuzzObject.play();
             song.playing = true;
+            song.paused = false;
         };
         
         /*
@@ -51,6 +53,7 @@
         var stopSong = function() {
             currentBuzzObject.stop();
             SongPlayer.currentSong.playing = null;
+            Songplayer.currentSong.paused = null;
         };
         
         /**
@@ -95,6 +98,7 @@
             song = song || SongPlayer.currentSong;
             currentBuzzObject.pause();
             song.playing = false;
+            song.paused = true;
         };
         
         /*
