@@ -65,7 +65,7 @@
                 * @desc will be populated with information on the location of each event passed to the object
                 * @type {Number}
                 */
-                scope.value = 0;
+                scope.value = 100;
                 /*
                 * @desc maximum value of the percent width of an object
                 * @type {Number}
